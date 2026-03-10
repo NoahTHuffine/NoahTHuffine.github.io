@@ -1,50 +1,50 @@
 body{
-font-family:Arial;
+font-family: Arial, sans-serif;
 margin:0;
 background:#0b3d4f;
 color:white;
 }
 
-/* layout container */
-.container{
-display:flex;
-min-height:100vh;
+/* header */
+header{
+background:#062a35;
+padding:25px;
+text-align:center;
 }
 
-/* main content */
+/* main layout */
+.container{
+display:flex;
+flex-direction:row;
+min-height:80vh;
+}
+
+/* content */
 main{
 flex:1;
 padding:40px;
 }
 
-/* right sidebar navigation */
+/* navigation sidebar */
 nav{
 width:220px;
 background:#0f5c73;
 padding:20px;
 display:flex;
 flex-direction:column;
+align-items:flex-start;
 }
 
+/* nav links */
 nav a{
 color:white;
 text-decoration:none;
-margin:8px 0;
 font-weight:bold;
-position:sticky;
-top:0;
-height:100vh;
+margin:6px 0;
 }
 
 nav a:hover{
 text-decoration:underline;
-}
-
-/* header */
-header{
-background:#062a35;
-padding:20px;
-text-align:center;
 }
 
 /* footer */
