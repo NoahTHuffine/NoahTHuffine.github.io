@@ -5,35 +5,51 @@ background:#0b3d4f;
 color:white;
 }
 
-header{
-background:#062a35;
-padding:30px;
-text-align:center;
+/* layout container */
+.container{
+display:flex;
+min-height:100vh;
 }
 
+/* main content */
+main{
+flex:1;
+padding:40px;
+}
+
+/* right sidebar navigation */
 nav{
+width:220px;
 background:#0f5c73;
-padding:10px;
-text-align:center;
+padding:20px;
+display:flex;
+flex-direction:column;
 }
 
 nav a{
 color:white;
-margin:10px;
 text-decoration:none;
+margin:8px 0;
 font-weight:bold;
+position:sticky;
+top:0;
+height:100vh;
 }
 
 nav a:hover{
 text-decoration:underline;
 }
 
-section{
-padding:40px;
+/* header */
+header{
+background:#062a35;
+padding:20px;
+text-align:center;
 }
 
+/* footer */
 footer{
 background:#062a35;
 text-align:center;
-padding:20px;
+padding:15px;
 }
