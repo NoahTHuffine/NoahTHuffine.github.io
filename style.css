@@ -59,3 +59,27 @@ background:#114b5f;
 padding:15px;
 border-radius:8px;
 }
+
+/* Suggested Pages Section */
+
+.suggested-pages{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+margin-top:15px;
+}
+
+.suggested-pages a{
+background:#1f7a8c;
+padding:12px 18px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+transition:0.2s;
+}
+
+.suggested-pages a:hover{
+background:#2aa9c0;
+transform:scale(1.05);
+}
