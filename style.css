@@ -28,7 +28,7 @@ padding:40px;
 /* navigation sidebar */
 nav{
 width:220px;
-background:#0f5c73;
+background:#072a35;
 padding:20px;
 display:flex;
 flex-direction:column;
@@ -44,7 +44,7 @@ margin:6px 0;
 }
 
 nav a:hover{
-text-decoration:bold;
+text-decoration:underline;
 }
 
 /* footer */
