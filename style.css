@@ -83,3 +83,25 @@ transition:0.2s;
 background:#2aa9c0;
 transform:scale(1.05);
 }
+/* Unvisited link */
+a:link {
+  color: white; /* Default is blue */
+}
+
+/* Visited link */
+a:visited {
+  color: white; /* Default is purple */
+}
+
+/* Mouse over link */
+a:hover {
+  color: white; /* Color when hovering */
+  font-weight:bold;
+
+  
+}
+
+/* Selected link */
+a:active {
+  color: white; /* Color when clicked */
+}
